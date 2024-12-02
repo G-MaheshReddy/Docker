@@ -3,7 +3,7 @@ FROM openjdk:17-jdk-slim
 
 #Set the working dir in the image
 
-WORkDIR app/
+WORKDIR app/
 
 #copy the files from the host file system to the image file system
 
